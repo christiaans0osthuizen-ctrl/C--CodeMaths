@@ -1,0 +1,17 @@
+std = standard
+:: = scope resolution operator(specifice or qalifies names in context) 
+cout = character_output
+endl = end line(flushes the output buffer) or '\n'(better for preformance)
+const states that var s constant (common format is all upercase)
+namespace is a fuction where you could create var with the same name but they react diffarantly beacause differant name space bv namespace first{ int x = 0;} and is called via prefix bv first::x if not specifiad it will call mobail var if we say code: using namespace first: it will beacome the default name space if not spesified
+
+var:
+Double is bascily int+float
+char is a single character output
+string format = std::string name =
+typedef=using point to words like typdef std::string string then we can repalce std:string with just string
+
+approuche:
+m = minimum
+v = viable
+p = product
