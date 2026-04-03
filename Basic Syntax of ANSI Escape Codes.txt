@@ -1,0 +1,45 @@
+\033[<code>m
+
+\033: Escape character (ASCII code 27).
+[: CSI (Control Sequence Introducer).
+<code>: The style or color code (e.g., 31 for red).
+m: End of the code.
+
+Common ANSI Codes
+Here are some of the most commonly used codes:
+
+Text Styles:
+
+0 → Reset
+1 → Bold
+4 → Underline
+5 → Blink (may not work on all terminals)
+7 → Inverse (reversed colors)
+Text Colors (Foreground):
+
+30 → Black
+31 → Red
+32 → Green
+33 → Yellow
+34 → Blue
+35 → Magenta
+36 → Cyan
+37 → White
+Background Colors:
+
+40 → Black
+41 → Red
+42 → Green
+43 → Yellow
+44 → Blue
+45 → Magenta
+46 → Cyan
+47 → White
+
+Example 1: Changing Text Colors
+
+int main() {
+    std::cout << "\033[31mThis is red text\033[0m" << std::endl;
+    std::cout << "\033[32mThis is green text\033[0m" << std::endl;
+    return 0;
+}
